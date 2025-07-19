@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Brews & Bites | Island Brew</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <a href="index.html" class="logo" style="display: flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+      <img src="assets/images/logo.png" alt="Island Brew Logo" style="height: 50px;">
+      <span style="font-size: 1.5rem; font-weight: 700; letter-spacing: 1px; color: #F5E9DF;">ISLAND BREW</span>
+    </a>
+    <nav>
+      <a href="menu.html" class="active">Menu</a>
+    </nav>
+  </header>
+  <main class="menu-main">
+    <h1>Our Brews & Bites</h1>
+    <div style="display: flex; gap: 1rem; justify-content: center; margin-bottom: 2.5rem;">
+      <button class="menu-nav-btn" onclick="document.getElementById('menu-coffee').scrollIntoView({behavior: 'smooth'});">Coffee</button>
+      <button class="menu-nav-btn" onclick="document.getElementById('menu-tea').scrollIntoView({behavior: 'smooth'});">Tea</button>
+      <button class="menu-nav-btn" onclick="document.getElementById('menu-pastries').scrollIntoView({behavior: 'smooth'});">Pastries</button>
+      <button class="menu-nav-btn" onclick="document.getElementById('menu-smoothies').scrollIntoView({behavior: 'smooth'});">Smoothies</button>
+    </div>
+    <div id="menu-coffee" class="menu-section menu-bg-coffee">
+      <h2>Coffee</h2>
+      <div class="menu-items">
+        <div class="menu-item-box">
+          <img src="assets/images/coffee1.png" alt="Espresso" class="menu-item-img">
+          <span>Espresso</span>
+          <span class="price">Rs. 400</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/coffee2.jpg" alt="Americano" class="menu-item-img">
+          <span>Americano</span>
+          <span class="price">Rs. 450</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/coffee3.jpg" alt="Cappuccino" class="menu-item-img">
+          <span>Cappuccino</span>
+          <span class="price">Rs. 500</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/coffee4.jpg" alt="Latte" class="menu-item-img">
+          <span>Latte</span>
+          <span class="price">Rs. 550</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/coffee5.jpg" alt="Mocha" class="menu-item-img">
+          <span>Mocha</span>
+          <span class="price">Rs. 600</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/logo.png" alt="Island Brew Special" class="menu-item-img">
+          <span>Island Brew Special</span>
+          <span class="price">Rs. 650</span>
+        </div>
+      </div>
+    </div>
+    <div id="menu-tea" class="menu-section menu-bg-tea">
+      <h2>Tea</h2>
+      <div class="menu-items">
+        <div class="menu-item-box">
+          <img src="assets/images/tea1.jpg" alt="Ceylon Black Tea" class="menu-item-img">
+          <span>Ceylon Black Tea</span>
+          <span class="price">Rs. 350</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/tea2.jpg" alt="Green Tea" class="menu-item-img">
+          <span>Green Tea</span>
+          <span class="price">Rs. 400</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/tea3.jpg" alt="Herbal Infusion" class="menu-item-img">
+          <span>Herbal Infusion</span>
+          <span class="price">Rs. 450</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/tea4.jpg" alt="Chai Latte" class="menu-item-img">
+          <span>Chai Latte</span>
+          <span class="price">Rs. 500</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/tea5.jpg" alt="Iced Lemon Tea" class="menu-item-img">
+          <span>Iced Lemon Tea</span>
+          <span class="price">Rs. 500</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/tea6.jpg" alt="Tropical Fruit Tea" class="menu-item-img">
+          <span>Tropical Fruit Tea</span>
+          <span class="price">Rs. 550</span>
+        </div>
+      </div>
+    </div>
+    <div id="menu-pastries" class="menu-section menu-bg-pastries">
+      <h2>Pastries</h2>
+      <div class="menu-items">
+        <div class="menu-item-box">
+          <img src="assets/images/pastries1.jpg" alt="Butter Croissant" class="menu-item-img">
+          <span>Butter Croissant</span>
+          <span class="price">Rs. 350</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/pastries2.jpg" alt="Chocolate Muffin" class="menu-item-img">
+          <span>Chocolate Muffin</span>
+          <span class="price">Rs. 400</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/pastries3.jpg" alt="Coconut Tart" class="menu-item-img">
+          <span>Coconut Tart</span>
+          <span class="price">Rs. 450</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/pastries4.jpg" alt="Banana Bread" class="menu-item-img">
+          <span>Banana Bread</span>
+          <span class="price">Rs. 400</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/pastries5.jpg" alt="Pineapple Danish" class="menu-item-img">
+          <span>Pineapple Danish</span>
+          <span class="price">Rs. 450</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/pastries6.jpg" alt="Island Scone" class="menu-item-img">
+          <span>Island Scone</span>
+          <span class="price">Rs. 500</span>
+        </div>
+      </div>
+    </div>
+    <div id="menu-smoothies" class="menu-section menu-bg-smoothies">
+      <h2>Smoothies</h2>
+      <div class="menu-items">
+        <div class="menu-item-box">
+          <img src="assets/images/smoothies1.jpg" alt="Mango Passion" class="menu-item-img">
+          <span>Mango Passion</span>
+          <span class="price">Rs. 600</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/smoothies2.jpg" alt="Pineapple Coconut" class="menu-item-img">
+          <span>Pineapple Coconut</span>
+          <span class="price">Rs. 650</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/smoothies3.jpg" alt="Berry Breeze" class="menu-item-img">
+          <span>Berry Breeze</span>
+          <span class="price">Rs. 700</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/smoothies4.jpg" alt="Banana Choco" class="menu-item-img">
+          <span>Banana Choco</span>
+          <span class="price">Rs. 650</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/smoothies5.jpg" alt="Green Island" class="menu-item-img">
+          <span>Green Island</span>
+          <span class="price">Rs. 700</span>
+        </div>
+        <div class="menu-item-box">
+          <img src="assets/images/smoothies6.jpg" alt="Tropical Sunrise" class="menu-item-img">
+          <span>Tropical Sunrise</span>
+          <span class="price">Rs. 750</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-content">
+      <div>Contact: hello@islandbrew.com | +94 77 653 323 
+        
+      </div>
+      <div class="social-icons">
+        <!-- Instagram SVG -->
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="7" stroke="#4E6952" stroke-width="2"/><rect x="16.5" y="6.5" width="2" height="2" rx="1" fill="#4E6952"/></svg>
+        <!-- Facebook SVG -->
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="3" y="3" width="18" height="18" rx="5" stroke="#4E6952" stroke-width="2"/><path d="M15 8h-2a1 1 0 0 0-1 1v2h3l-.5 2H12v6" stroke="#4E6952" stroke-width="2" stroke-linecap="round"/></svg>
+        <!-- Twitter SVG -->
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 7.5c-.6.3-1.2.5-1.8.6a3.1 3.1 0 0 0-5.3 2.8c-2.6-.1-5-1.4-6.6-3.5-.3.5-.5 1-.5 1.6 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.4-.4v.1c0 1.5 1.1 2.7 2.5 3-.3.1-.6.2-.9.2-.2 0-.4 0-.6-.1.4 1.2 1.6 2.1 3 2.1A6.2 6.2 0 0 1 3 18.1c1.3.8 2.8 1.3 4.4 1.3 5.3 0 8.2-4.4 8.2-8.2v-.4c.6-.4 1.1-1 1.5-1.6z" stroke="#4E6952" stroke-width="2"/></svg>
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 
